@@ -3,7 +3,7 @@
     "main.css": "/static/css/main.f042e423.css",
     "main.js": "/static/js/main.01297413.js",
     "static/media/CV.pdf": "/static/media/CV.698fda4427da05e8b70e.pdf",
-    "static/media/zoomed-in.jpg": "/static/media/zoomed-in.38a1dd849c87ebe9eb5d.jpg",
+    "static/media/zoomed-in.jpg": "./static/media/zoomed-in.38a1dd849c87ebe9eb5d.jpg",
     "index.html": "/index.html",
     "main.f042e423.css.map": "/static/css/main.f042e423.css.map",
     "main.01297413.js.map": "/static/js/main.01297413.js.map"
