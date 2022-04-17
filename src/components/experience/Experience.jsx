@@ -6,6 +6,7 @@ import { FaBootstrap } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { IoLogoVue } from "react-icons/io5";
 import { FaReact } from "react-icons/fa";
+import { SiTypescript } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { AiOutlineConsoleSql } from "react-icons/ai";
 import { SiFigma } from "react-icons/si";
@@ -67,6 +68,14 @@ const Experience = () => {
               <div>
                 <FaReact className="experience_details-icon" />
                 <h4>React</h4>
+                <small className="text-light">Beginner</small>
+              </div>
+            </article>
+
+            <article className="experience_details">
+              <div>
+                <SiTypescript className="experience_details-icon" />
+                <h4>TypeScript</h4>
                 <small className="text-light">Beginner</small>
               </div>
             </article>

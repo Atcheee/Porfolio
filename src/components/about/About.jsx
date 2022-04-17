@@ -27,16 +27,16 @@ const About = () => {
             <article className="about_card">
               <FaAward className="about_icon" />
               <h5>Experience</h5>
-              <small>1 year of studing</small>
+              <small>First year student</small>
             </article>
             <article className="about_card">
               <BsBook className="about_icon" />
               <h5>Learning</h5>
-              <small>Still learning new stuff</small>
+              <small>Currently, <br></br> Node.JS, React & TypeScript</small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum itaque nemo consectetur numquam perspiciatis corporis adipisci, ea ipsam, sequi autem error ratione repellat rerum quibusdam id aut eius exercitationem reprehenderit!
+            I'm a 19 y/o guy who loves everything computer related. I spend most of my free time doing anything from programming for school or a project I'm making my self to playing video games with my friends  
           </p>
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
