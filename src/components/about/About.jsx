@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME from '../../assets/zoomed-in.jpg'
+import ME from "../../assets/zoomed-in.jpg";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { BsBook } from "react-icons/bs";
@@ -25,20 +25,21 @@ const About = () => {
               <small>IT-Högskolan, Stockholm</small>
             </article>
             <article className="about_card">
-              <FaAward className="about_icon" />
-              <h5>Experience</h5>
-              <small>First year student</small>
-            </article>
-            <article className="about_card">
               <BsBook className="about_icon" />
               <h5>Learning</h5>
-              <small>Currently, <br></br> Node.JS, React & TypeScript</small>
+              <small>
+                Currently, <br></br> Node.JS, React & TypeScript
+              </small>
             </article>
           </div>
           <p>
-            I'm a 19 y/o guy who loves everything computer related. I spend most of my free time doing anything from programming for school or a project I'm making my self to playing video games with my friends  
+            I'm a 19 y/o guy who loves everything computer related. I spend most
+            of my free time doing anything from programming for school or a
+            project I'm making my self to playing video games with my friends
           </p>
-          <a href="#contact" className="btn btn-primary">Let's Talk</a>
+          <a href="#contact" className="btn btn-primary">
+            Let's Talk
+          </a>
         </div>
       </div>
     </section>

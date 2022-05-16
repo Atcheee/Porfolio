@@ -9,13 +9,13 @@ const Portfolio = () => {
 
       <div className="container portfolio_container">
         <article className="portfolio_item">
-          <div className="portfolio_item-image">
+          {/* <div className="portfolio_item-image">
             <img src="#" alt="Screenshot From Project" />
-          </div>
-          <h3>Sinus</h3>
+          </div> */}
+          <h3>Feel free to checkout my github profile to see what I'm currently working on.</h3>
           <div className="portfolio_item-cta">
             <a
-              href="https://github.com/Atcheee/Sinus"
+              href="https://github.com/Atcheee"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
@@ -24,7 +24,7 @@ const Portfolio = () => {
             </a>
           </div>
         </article>
-        <article className="portfolio_item">
+        {/* <article className="portfolio_item">
           <div className="portfolio_item-image">
             <img src="#" alt="Screenshot From Project" />
           </div>
@@ -39,7 +39,7 @@ const Portfolio = () => {
               Github
             </a>
           </div>
-        </article>
+        </article> */}
       </div>
     </section>
   );
