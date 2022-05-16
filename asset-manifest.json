@@ -9,7 +9,7 @@
     "main.ee07c5b6.js.map": "/static/js/main.ee07c5b6.js.map"
   },
   "entrypoints": [
-    "/Portfoliostatic/css/main.06a7bda1.css",
-    "/Portfoliostatic/js/main.ee07c5b6.js"
+    "/Portfolio/static/css/main.06a7bda1.css",
+    "/Portfolio/static/js/main.ee07c5b6.js"
   ]
 }
