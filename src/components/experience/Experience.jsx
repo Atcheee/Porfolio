@@ -37,7 +37,7 @@ const Experience = () => {
 							<div>
 								<SiCss3 className="experience_details-icon" />
 								<h4>CSS</h4>
-								<small className="text-light">Intermediate</small>
+								<small className="text-light">Experienced</small>
 							</div>
 						</article>
 
