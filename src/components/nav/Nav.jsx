@@ -8,46 +8,46 @@ import { BiMessageSquareDetail } from "react-icons/bi";
 import { useState } from "react";
 
 const Nav = () => {
-  const [activeNav, setActiveNav] = useState("#");
-  return (
-    <nav>
-      <a
-        href="#"
-        onClick={() => setActiveNav("#")}
-        className={activeNav === "#" ? "active" : ""}
-      >
-        <AiOutlineHome />
-      </a>
-      <a
-        href="#about"
-        onClick={() => setActiveNav("#about")}
-        className={activeNav === "#about" ? "active" : ""}
-      >
-        <AiOutlineUser />
-      </a>
-      <a
-        href="#experience"
-        onClick={() => setActiveNav("#experience")}
-        className={activeNav === "#experience" ? "active" : ""}
-      >
-        <BiBook />
-      </a>
-      <a
-        href="#portfolio"
-        onClick={() => setActiveNav("#portfolio")}
-        className={activeNav === "#portfolio" ? "active" : ""}
-      >
-        <BsBriefcase />
-      </a>
-      <a
-        href="#contact"
-        onClick={() => setActiveNav("#contact")}
-        className={activeNav === "#contact" ? "active" : ""}
-      >
-        <BiMessageSquareDetail />
-      </a>
-    </nav>
-  );
+    const [activeNav, setActiveNav] = useState("#");
+    return (
+        <nav>
+            <button
+                onClick={() => setActiveNav("#")}
+                className={activeNav === "#" ? "active" : ""}
+            >
+                <AiOutlineHome />
+                <span>Home</span>
+            </button>
+            <button
+                onClick={() => setActiveNav("#about")}
+                className={activeNav === "#about" ? "active" : ""}
+            >
+                <AiOutlineUser />
+                <span>About</span>
+            </button>
+            <button
+                onClick={() => setActiveNav("#experience")}
+                className={activeNav === "#experience" ? "active" : ""}
+            >
+                <BiBook />
+                <span>Experience</span>
+            </button>
+            <button
+                onClick={() => setActiveNav("#portfolio")}
+                className={activeNav === "#portfolio" ? "active" : ""}
+            >
+                <BsBriefcase />
+                <span>Portfolio</span>
+            </button>
+            <button
+                onClick={() => setActiveNav("#contact")}
+                className={activeNav === "#contact" ? "active" : ""}
+            >
+                <BiMessageSquareDetail />
+                <span>Contact</span>
+            </button>
+        </nav>
+    );
 };
 
 export default Nav;
