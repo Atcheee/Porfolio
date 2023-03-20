@@ -1,7 +1,6 @@
 import React from "react";
 import "./about.css";
 import ME from "../../assets/zoomed-in.jpg";
-import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { BsBook } from "react-icons/bs";
 
