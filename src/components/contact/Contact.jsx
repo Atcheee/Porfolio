@@ -31,8 +31,8 @@ const Contact = () => {
           <article className="contact_option">
             <MdOutlineEmail className="contact_option.icon" />
             <h4>Email</h4>
-            <h5>erik.hammarqvist@iths.se</h5>
-            <a href="mailto:erik.hammarqvist@iths.se">Send a message</a>
+            <h5>erik.hammarqvist@outlook.com</h5>
+            <a href="mailto:erik.hammarqvist@outlook.com">Send a message</a>
           </article>
           <article className="contact_option">
             <BsLinkedin className="contact_option.icon" />
@@ -47,7 +47,7 @@ const Contact = () => {
           <input
             type="text"
             name="name"
-            placeholder="Your Full Name"
+            placeholder="Your Name"
             required
           />
           <input type="email" name="email" placeholder="Your Email" required />
